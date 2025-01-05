@@ -1,0 +1,255 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0px;
+}
+
+.main{
+    /* border:2px solid red; */
+    /* height:750px; */
+    position: relative;
+    max-width: 100%;
+    height: 1104px;
+    /* height: 20px; */
+    border: 2px solid red;
+    /* width: 100%; */
+    /* background: linear-gradient( */
+    /* to bottom, */
+    /* rgba(244, 105, 105, 0.6),  */
+    /* rgba(0, 0, 255, 0.6)   */
+/* ), */
+/* url(vinay.jpg); */
+
+}
+.main-nav{
+  position: absolute;
+  top: 0px;
+  /* left: 1%; */
+  width: 100%;
+  height: 1100px;
+  list-style-type:none;
+  display: flex;
+  /* background: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
+ background: linear-gradient( 
+ to bottom, 
+ rgba(244, 105, 105, 0.6),
+ rgba(0, 0, 255, 0.6)   
+ );
+  color: white;
+  /* height: auto; */
+    /* width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin-left: 20px;
+    color: white; */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.main-nav>img{
+  margin-left: 1%;
+}
+
+.l1{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 25px;
+ }
+.l2{
+    margin-left: 0;
+    margin-top: 1%;
+    font-size: 25px;
+}
+.l3{
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 25px;
+} 
+@media screen(min-width=){
+
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-family: cursive;
+} 
+.fade-text {
+  margin-top: 8%;
+  margin-left: 0%;
+  /* margin-right: 800px; */
+    opacity: 0;
+    margin-top: 550px;
+    font-size: 2.5em;
+    text-shadow: 2px 12px 12px red;
+    animation: fadeIn 2s forwards; /* Adjust duration as needed */
+    /* background: linear-gradient( to right, black,blue,red,pink,yellow); */
+    /* background-clip: text; */
+color: white;
+    /* color: transparent; */
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+         
+      }
+}
+
+
+/* above code belongs to the  header part and image part
+/* =====================starting clinets pics and matter============== */
+.client1box{
+    width: auto;
+    height: auto;
+    display: flex;
+    background:linear-gradient(45deg, #ff6e7f, #bfe9ff)
+    
+}
+
+.client1{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius:200px;
+    background: linear-gradient(rgba(105, 104, 104, 0.3),rgba(72, 146, 103, 0.1)),url(bavana.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    /* box-shadow: 8px 2px 64px blue; */
+}
+.client1details{
+
+   width: 500px;
+   height: 100px;
+   font-size: 2.5em;
+   margin-left: 600px;
+   margin-top:50px;
+}
+.client2box{
+    width: auto;
+    height: auto;
+    background-color:none;
+    display: flex;
+    background:linear-gradient(45deg, #ff6e7f, #bfe9ff)
+}
+.client2{
+     border: none;
+     width: 350px;
+     height: 350px;
+     border-radius:200px;
+     background: linear-gradient(rgba(105, 104, 104, 0.3),rgba(72, 146, 103, 0.1)),url(manya.jpg);
+     margin-left: 350px;
+     margin-top: 15px;
+     background-size: cover;
+     background-position: center;
+   /* box-shadow: 8px 2px 64px blue; */
+
+}
+
+.client2details{
+   width: 500px;
+   height: 200px;
+   background-color:NONE;
+   font-size: 2.5em;
+   margin-left: 100px;
+   margin-top:100px;
+}
+.client3box{
+    width: auto;
+    height: auto;
+    background-color:none;
+    display: flex;
+    background:linear-gradient(45deg, #ff6e7f, #bfe9ff)
+    
+
+}
+.client3{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius:200px;
+    background: linear-gradient(rgba(105, 104, 104, 0.3),rgba(72, 146, 103, 0.1)),url(nainisha.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+   /* box-shadow: 8px 2px 64px blue; */
+
+}
+.client3details{
+   width: 500px;
+   height: 100px;
+   font-size: 2.5em;
+   margin-left: 600px;
+   margin-top:50px;
+}
+/* =====================================this code delongs to the gallery code===================================================== */
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  /* .column>img{
+    transform: scale(1.05);
+  } */
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+/* =============================ABOUNT========================== */
+.detail-main{
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+  color:red;
+}
+.detail{
+  text-align: center;
+  font-size: 3em;
+  font-family: cursiv;
+  margin-top: 20px;
+  /* color: blue; */
+
+}
+
+
+
+    
+
+
+
+
+
